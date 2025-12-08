@@ -15,12 +15,12 @@ const projects = [
   },
   {
     id: "sunnycore",
-    title: "SunnyCore Offline AI Assistant",
-    role: "Hardware Integration Lead | System Tester",
-    description: "Built a fully offline, emotion-aware conversational AI assistant using Whisper (speech-to-text), RoBERTa (emotion detection), and LLaMA-2 (local response generation) optimized to run on a Raspberry Pi.",
+    title: "SunnyCore Offline AI Assistant (XN Project)",
+    role: "Project Lead | System Integrator | AI Workflow Coordinator",
+    description: "Led the development of an offline, emotion-aware conversational AI assistant running entirely on a Raspberry Pi. Integrated Whisper (STT), RoBERTa (emotion detection), and LLaMA-2 models while meeting strict privacy, latency, and performance constraints.",
     icon: Cpu,
     color: "bg-green-500/10 text-green-600",
-    skills: ["Systems Thinking", "AI Integration", "Hardware Configuration", "Troubleshooting", "Technical Documentation"],
+    skills: ["Project Leadership", "Technical Program Management", "AI Integration Strategy", "Risk Management", "Documentation"],
   },
   {
     id: "system-design",
