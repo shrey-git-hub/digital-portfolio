@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Bot, Cpu, FileText, BarChart3 } from "lucide-react";
+import { ArrowRight, Bot, Cpu, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -27,14 +27,6 @@ const projects = [
     description: "Comprehensive SRS with UML diagrams, workflows, and requirement specifications",
     icon: FileText,
     color: "bg-purple-500/10 text-purple-600",
-  },
-  {
-    id: "analytics",
-    title: "Analytics & AI Project",
-    role: "Data Analyst",
-    description: "Dashboards and storytelling insights for data-driven decision making",
-    icon: BarChart3,
-    color: "bg-orange-500/10 text-orange-600",
   },
 ];
 
