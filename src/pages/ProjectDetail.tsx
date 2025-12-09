@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import { Layout } from "@/components/layout/Layout";
-import { ArrowLeft, Bot, Cpu, FileText, BarChart3, CheckCircle } from "lucide-react";
+import { ArrowLeft, Bot, Cpu, FileText, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -54,21 +54,6 @@ const projectsData = {
     ],
     skills: ["Requirements Gathering", "UML Design", "System Workflow Mapping", "Documentation", "Stakeholder Communication"],
     reflection: "This project reinforced strong BA fundamentals and improved my ability to structure requirements, align stakeholders, and design scalable system solutions.",
-  },
-  "analytics": {
-    title: "Analytics & AI Coursework Project",
-    role: "Data Analyst",
-    icon: BarChart3,
-    color: "bg-orange-500/10 text-orange-600",
-    overview: "Built dashboards and storytelling insights for a data analysis project demonstrating analytical thinking and insight-driven decision-making.",
-    responsibilities: [
-      "Analyzed datasets to extract meaningful insights",
-      "Built interactive dashboards for data visualization",
-      "Created compelling data stories for stakeholders",
-      "Applied analytical frameworks for decision support",
-    ],
-    skills: ["Data Visualization", "Insight Communication", "Dashboard Design"],
-    reflection: "This project enhanced my ability to communicate complex data insights effectively and create actionable recommendations for stakeholders.",
   },
 };
 

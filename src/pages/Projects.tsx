@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
-import { ArrowRight, Bot, Cpu, FileText, BarChart3 } from "lucide-react";
+import { ArrowRight, Bot, Cpu, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const projects = [
@@ -30,15 +30,6 @@ const projects = [
     icon: FileText,
     color: "bg-purple-500/10 text-purple-600",
     skills: ["Requirements Gathering", "UML Design", "System Workflow Mapping", "Documentation", "Stakeholder Communication"],
-  },
-  {
-    id: "analytics",
-    title: "Analytics & AI Coursework Project",
-    role: "Data Analyst",
-    description: "Built dashboards and storytelling insights for a data analysis project demonstrating analytical thinking and insight-driven decision-making.",
-    icon: BarChart3,
-    color: "bg-orange-500/10 text-orange-600",
-    skills: ["Data Visualization", "Insight Communication", "Dashboard Design"],
   },
 ];
 
